@@ -12,7 +12,7 @@
 /* CORES */
 :root {
     --branco: #FFFFFF;
-    --cinza: #D3D3D3;
+    --cinza: #878787;
     --rosa: #FD0B7D;
     --cinza-escuro: #1B1B1B;
     --preto: #000000;
@@ -33,6 +33,7 @@ body {
 .container {
     max-width: 1500px;
     margin: auto;
+    position: relative;
 }
 
 /* CABEÇALHO */
@@ -129,21 +130,40 @@ body {
     display: block;
     position: absolute;
     top: 54rem;
-    right: 57rem;
+    right: 50rem;
 }
 
 /* CONTÉUDO */
 .conteudoPrincipal {}
 
 /*  SEÇÃO APP FOOD */
-.secaoAppFood {}
+.secaoAppFood {
+    background-color: var(--cinza-escuro);
+    padding-top: 6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+}
 
-.secaoAppFood p {}
+.secaoAppFood p {
+    color: var(--cinza);
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
 
-.secaoAppFood h2 {}
+.secaoAppFood h2 {
+    color: var(--branco);
+    font-size: 2.6em;
+    max-width: 42rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
 
 .secaoAppFood img {
-    width: 1rem;
+    display: block;
+    width: 100%;
+    max-width: 75rem;
 }
 
 /* SEÇÃO DESCRIÇÃO DO APP */
