@@ -1,0 +1,149 @@
+/* CONFIGURAÇÕES GLOBAIS */
+* {}
+
+/* CORES */
+:root {
+    --branco: #FFFFFF;
+    --cinza: #D3D3D3;
+    --rosa: #FD0B7D;
+    --cinza-escuro: #1B1B1B;
+    --preto: #000000;
+}
+
+
+/* CORPO */
+body {}
+
+/* SEÇÃO DO TOPO */
+.secaoTopo {}
+
+.container {}
+
+/* CABEÇALHO */
+.secaoTopoCabecalho {}
+
+.secaoTopoCabecalho a {}
+
+/* MENU */
+.secaoTopoCabecalho__listaMenu {}
+
+.listaMenu__item {}
+
+.listaMenu__item a {}
+
+/* ÁREA DE INTRODUÇÃO */
+.secaoTopo__areaIntroducao {}
+
+.areaIntroducao__tituloDescricao {}
+
+.areaIntroducao__tituloDescricao h1 {}
+
+.areaIntroducao__tituloDescricao p {}
+
+.areaIntroducao__tituloDescricao a {}
+
+.container img {}
+
+/* CONTÉUDO */
+.conteudoPrincipal {}
+
+/*  SEÇÃO APP FOOD */
+.secaoAppFood {}
+
+.secaoAppFood p {}
+
+.secaoAppFood h2 {}
+
+.secaoAppFood img {}
+
+/* SEÇÃO DESCRIÇÃO DO APP */
+.secaoDescricaoApp {}
+
+/* DESCRIÇÃO TÍTULO E IMAGEM  */
+.secaoDescricaoApp__tituloImagem {}
+
+.tituloImagem__divisao {}
+
+.descricao {}
+
+.descricao span {}
+
+.descricao h2 {}
+
+.descricao p {}
+
+.tituloImagem__divisao img {}
+
+/* SEÇÃO DE ATIVIDADE DO APP */
+.secaoAtividade {}
+
+.secaoAtividade__listaAtividades {}
+
+.listaAtividades__item {}
+
+.listaAtividades__item img {}
+
+.listaAtividades__item h3 {}
+
+.listaAtividades__item p {}
+
+/* SEÇÃO COM NÚMERO DE DADOS E PUBLICAÇÕES  */
+.secaoDadosPublicacoes {}
+
+.secaoDadosPublicacoes__listaDados {}
+
+.listaDados__item {}
+
+.listaDados__item span {}
+
+.listaDados__item p {}
+
+/* SEÇÃO APRESENTAÇÃO DE PRATOS */
+.secaoApresentacaoPratos {}
+
+.secaoApresentacaoPratos__descricaoPrato {}
+
+.secaoApresentacaoPratos__descricaoPrato img {}
+
+/* SEÇÃO SLIDER ainda vai ser feito*/ 
+
+/* SEÇÃO DE MARCAS PATROCINADORES */
+.secaoMarcasPatrocinadores {}
+
+.secaoMarcasPatrocinadores img {}
+
+/* SEÇÃO PRONTO PARA COMEÇAR */
+.secaoProntoComecar {}
+
+.secaoProntoComecar h2 {}
+
+.secaoProntoComecar__links {}
+
+.secaoProntoComecar__links a {}
+
+/* RODAPÉ */
+.rodape {}
+
+.rodape__pegarAtualizacoes {}
+
+.rodape__pegarAtualizacoes h2 {}
+
+.rodape__pegarAtualizacoes p {}
+
+/* ÁREA DE PEGAR ATUALIZAÇÕES NOVAS */
+.pegarAtualizacoes__inputBox {}
+
+.pegarAtualizacoes__inputBox input {}
+
+.pegarAtualizacoes__inputBox button {}
+
+/* CRÉDITOS */
+.rodape__creditos {}
+
+.rodape__creditos img {}
+
+.creditos__listaCreditos {}
+
+.listaCreditos__itemCredito {}
+
+.listaCreditos__itemCredito a {}
