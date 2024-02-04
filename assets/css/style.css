@@ -27,7 +27,7 @@ body {
 /* SEÇÃO DO TOPO */
 .secaoTopo {
     background-image: linear-gradient(135deg, #dd1173, #350e47);
-    padding: 2rem;
+    padding: 2.3rem;
 }
 
 .container {
@@ -130,7 +130,7 @@ body {
     display: block;
     position: absolute;
     top: 54rem;
-    right: 50rem;
+    right: 50%;
 }
 
 /* CONTÉUDO */
@@ -146,10 +146,11 @@ body {
     gap: 1.2rem;
 }
 
-.secaoAppFood p {
+.spanCinza {
     color: var(--cinza);
     text-transform: uppercase;
     font-size: 0.9em;
+    font-weight: 600;
 }
 
 .secaoAppFood h2 {
@@ -167,23 +168,50 @@ body {
 }
 
 /* SEÇÃO DESCRIÇÃO DO APP */
-.secaoDescricaoApp {}
+.secaoDescricaoApp  {
+    padding: 6rem;
+}
+
+.secaoDescricaoApp .container {
+    margin: auto;
+    max-width: 1200px;
+}
 
 /* DESCRIÇÃO TÍTULO E IMAGEM  */
 .secaoDescricaoApp__tituloImagem {}
 
-.tituloImagem__divisao {}
+.tituloImagem__divisao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
 
-.descricao {}
+.descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 21rem;
+}
 
 .descricao span {}
 
-.descricao h2 {}
+.descricao h2 {
+    font-size: 2.6em;
+    max-width: 20rem;
+}
 
-.descricao p {}
+.descricao p {
+    color: var(--cinza-escuro);
+    font-size: 1.1em;
+    line-height: 1.8em;
+}
 
 .tituloImagem__divisao img {
-    width: 1rem;
+    width: 100%;
+    max-width: 42rem;
+    display: block;
+    padding-inline: 10rem;
 }
 
 /* SEÇÃO DE ATIVIDADE DO APP */
