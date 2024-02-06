@@ -217,15 +217,26 @@ body {
 /* SEÇÃO DE ATIVIDADE DO APP */
 .secaoAtividade {}
 
-.secaoAtividade__listaAtividades {}
+.secaoAtividade__listaAtividades {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+}
 
-.listaAtividades__item {}
+.listaAtividades__item {
+    line-height: 2.2rem;
+}
 
-.listaAtividades__item img {}
+.listaAtividades__item img {
+    margin-bottom: 1rem;
+}
 
 .listaAtividades__item h3 {}
 
-.listaAtividades__item p {}
+.listaAtividades__item p {
+    color: var(--cinza);
+}
 
 /* SEÇÃO COM NÚMERO DE DADOS E PUBLICAÇÕES  */
 .secaoDadosPublicacoes {}
