@@ -172,7 +172,7 @@ body {
     padding: 6rem;
 }
 
-.secaoDescricaoApp .container {
+.secaoDescricaoApp .container, .secaoApresentacaoPratos .container  {
     margin: auto;
     max-width: 1200px;
 }
@@ -215,7 +215,10 @@ body {
 }
 
 /* SEÇÃO DE ATIVIDADE DO APP */
-.secaoAtividade {}
+.secaoAtividade, .secaoDadosPublicacoes  {
+    margin-bottom: 7rem;
+    padding: 2rem;
+}
 
 .secaoAtividade__listaAtividades {
     display: flex;
@@ -241,20 +244,43 @@ body {
 /* SEÇÃO COM NÚMERO DE DADOS E PUBLICAÇÕES  */
 .secaoDadosPublicacoes {}
 
-.secaoDadosPublicacoes__listaDados {}
+.secaoDadosPublicacoes__listaDados {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+}
 
 .listaDados__item {}
 
-.listaDados__item span {}
+.listaDados__item span {
+    font-size: 3.9rem;
+    line-height: 6.5rem;
+}
 
-.listaDados__item p {}
+.listaDados__item p {
+    font: 1.3em;
+}
 
 /* SEÇÃO APRESENTAÇÃO DE PRATOS */
 .secaoApresentacaoPratos {}
 
-.secaoApresentacaoPratos__descricaoPrato {}
+.secaoApresentacaoPratos__descricaoPrato {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
 
-.secaoApresentacaoPratos__descricaoPrato img {}
+.secaoApresentacaoPratos__descricaoPrato a {
+    color: var(--preto);
+    text-decoration: underline;
+}
+
+.secaoApresentacaoPratos__descricaoPrato img {
+    width: 100%;
+    max-width: 47rem;
+    padding-inline: 8rem;
+}
 
 /* SEÇÃO SLIDER ainda vai ser feito*/ 
 
@@ -262,11 +288,28 @@ body {
 .secaoMarcasPatrocinadores {}
 
 .secaoMarcasPatrocinadores img {
-    width: 1rem;
+    display: block;
+}
+
+.secaoMarcasPatrocinadores #img1 {
+    max-width: 95rem;
+    width: 100%;
+    margin: auto auto 4rem auto;
+}
+
+.secaoMarcasPatrocinadores #img2 {
+    width: 100%;
+    max-width: 1860px;
+    margin: auto;
 }
 
 /* SEÇÃO PRONTO PARA COMEÇAR */
-.secaoProntoComecar {}
+.secaoProntoComecar {
+    height: 30rem;
+    background-image: url("https://uploads-ssl.webflow.com/5af49de0dbb1e3637f2d8886/5b11c1af7f519f50eaefd140_wavy-bg.svg");
+    background-image: linear-gradient(135deg, #fc0a7e, #602bb6);
+    background-size: cover, auto;
+}   
 
 .secaoProntoComecar h2 {}
 
