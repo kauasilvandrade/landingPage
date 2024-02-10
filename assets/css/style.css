@@ -305,17 +305,58 @@ body {
 
 /* SEÇÃO PRONTO PARA COMEÇAR */
 .secaoProntoComecar {
-    height: 30rem;
-    background-image: url("https://uploads-ssl.webflow.com/5af49de0dbb1e3637f2d8886/5b11c1af7f519f50eaefd140_wavy-bg.svg");
+    height: 35rem;
     background-image: linear-gradient(135deg, #fc0a7e, #602bb6);
+}   
+.secaoProntoComecar .fundo {
+    z-index: 10;
+    height: 35rem;
+    width: 100%;
+    background-image: url("https://uploads-ssl.webflow.com/5af49de0dbb1e3637f2d8886/5b11c1af7f519f50eaefd140_wavy-bg.svg");
+    background-position: 50% 50%, 0px 0px;
     background-size: cover, auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 1.5em;
 }   
 
-.secaoProntoComecar h2 {}
+.secaoProntoComecar h2 {
+    color: var(--branco);
+}
 
 .secaoProntoComecar__links {}
 
-.secaoProntoComecar__links a {}
+.secaoProntoComecar__links a {
+    text-decoration: none;
+    color: var(--branco);
+    width: 10rem;
+    height: 3.8rem;
+    padding: 1.2rem 1.9rem;
+    border-radius: 2px;
+    font-weight: 600;
+    transition: .7s;
+    font-size: 0.7em;
+}
+
+.secaoProntoComecar__links #linkDownLoad {
+    background: var(--rosa);
+    margin-right: 1rem;
+}
+.secaoProntoComecar__links #linkDownLoad:hover {
+    background: var(--branco);
+    color: var(--preto);
+}
+
+.secaoProntoComecar__links #linkGetIn {
+    border: 2px solid #FFFFFF4f;
+}
+.secaoProntoComecar__links #linkGetIn:hover {
+    border: 2px solid #FFFFFF;
+}
 
 /* RODAPÉ */
 .rodape {}
