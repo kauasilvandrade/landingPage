@@ -359,28 +359,93 @@ body {
 }
 
 /* RODAPÉ */
-.rodape {}
+.rodape {
+    background-color: var(--cinza-escuro);
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
 
-.rodape__pegarAtualizacoes {}
+.rodape__pegarAtualizacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
 
-.rodape__pegarAtualizacoes h2 {}
+.rodape__pegarAtualizacoes h2 {
+    color: var(--branco);
+    font-size: 2.4em;
+}
 
-.rodape__pegarAtualizacoes p {}
+.rodape__pegarAtualizacoes p {
+    color: var(--cinza);
+}
 
 /* ÁREA DE PEGAR ATUALIZAÇÕES NOVAS */
-.pegarAtualizacoes__inputBox {}
+.pegarAtualizacoes__inputBox {
+    display: flex;
+}
 
-.pegarAtualizacoes__inputBox input {}
+.pegarAtualizacoes__inputBox input {
+    padding: 1.5rem;
+    width: 19rem;
+    font-size: 1em;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: .5s;
+    outline: none;
+}
 
-.pegarAtualizacoes__inputBox button {}
+.pegarAtualizacoes__inputBox input:hover {
+    border: 2px solid var(--rosa);
+}
+
+.pegarAtualizacoes__inputBox button {
+    width: 9rem;
+    transition: .5s;
+    cursor: pointer;
+    background-color: var(--rosa);
+    color: var(--branco);
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 1.1em;
+}
+
+.pegarAtualizacoes__inputBox button:hover {
+    background-color: var(--preto);
+}
 
 /* CRÉDITOS */
 .rodape__creditos {}
 
-.rodape__creditos img {}
+.rodape__creditos img {
+    display: block;
+    width: 100%;
+    max-width: 7.5rem;
+    margin: auto auto 1.4rem auto;
+}
 
-.creditos__listaCreditos {}
+.creditos__listaCreditos {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
 
 .listaCreditos__itemCredito {}
 
-.listaCreditos__itemCredito a {}
+.listaCreditos__itemCredito a {
+    text-decoration: none;
+    color: var(--cinza);
+    font-size: 0.86em;
+}
+
+.listaCreditos__itemCredito a:hover {
+    color: var(--branco);
+}
