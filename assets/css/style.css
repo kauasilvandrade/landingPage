@@ -295,6 +295,7 @@ body {
     max-width: 95rem;
     width: 100%;
     margin: auto auto 4rem auto;
+    padding-inline: 2rem;
 }
 
 .secaoMarcasPatrocinadores #img2 {
@@ -397,7 +398,6 @@ body {
     font-size: 1em;
     border-radius: 5px 0px 0px 5px;
     border: none;
-    cursor: pointer;
     border: 2px solid transparent;
     transition: .5s;
     outline: none;

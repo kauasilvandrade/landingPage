@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1300px) {
+
+    /* SEÇÃO DO TOPO  */
+    .container {
+        max-width: 950px;
+    }
+
+    /* ÁREA DE INTRODUÇÃO */
+    .secaoTopo__areaIntroducao img {
+        width: 100%;
+        max-width: 28rem;
+    }
+
+    /* DOWN ARROW  */
+    .container > img {
+        top: 35rem;
+    }
+
+    /* SEÇÃO DESCRIÇÃO DO APP */
+    .secaoDescricaoApp, .secaoApresentacaoPratos {
+        padding: 3rem;
+    }
+
+    /* LISTA DE ATIVIDADES */
+    .secaoAtividade__listaAtividades {
+        gap: 1.5rem;
+    }
+
+    /* SEÇÃO APRESENTAÇÃO DE PRATOS  */
+    .secaoApresentacaoPratos__descricaoPrato img {
+        max-width: 40rem;
+        padding-inline: 5rem;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    
+    /* ÁREA DE INTRODUÇÃO */
+    .secaoTopo__areaIntroducao {
+        flex-direction: column;
+    }
+
+    /* DOWN ARROW  */
+    .container > img {
+        top: 62rem;
+    }
+
+}
+
+@media screen and (max-width: 936px) {
+    
+    /* MENU */
+    .secaoTopoCabecalho__listaMenu {
+        display: none;
+    }
+
+    /* DESCRIÇÃO TÍTULO E IMAGEM  */
+    .tituloImagem__divisao,
+    .secaoAtividade__listaAtividades, 
+    .secaoDadosPublicacoes__listaDados,
+    .secaoApresentacaoPratos__descricaoPrato {
+        gap: 3.5rem;
+        flex-direction: column;
+    }
+
+    .descricao h2 {
+        max-width: 100%;
+    }
+
+    .tituloImagem__divisao img {
+        max-width: 37rem;
+    }
+
+    .order {
+        order: 1;
+    }
+
+    .descricao {
+        max-width: 100%;
+    }
+
+    /* SEÇÃO COM NÚMERO DE DADOS E PUBLICAÇÕES  */
+    .secaoDadosPublicacoes {
+        margin-bottom: 0;
+    }
+
+    /* SEÇÃO APRESENTAÇÃO DE PRATOS */
+    .secaoApresentacaoPratos__descricaoPrato {
+        margin-bottom: 5rem;
+    }
+
+    .secaoApresentacaoPratos__descricaoPrato img {
+        width: 100%;
+        max-width: 30rem;
+        padding-inline: 0rem;
+    }
+    
+}
+
+@media screen and (max-width: 670px) {
+    
+}
