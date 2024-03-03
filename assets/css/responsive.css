@@ -79,6 +79,7 @@
 
     .descricao {
         max-width: 100%;
+        text-align: center;
     }
 
     /* SEÇÃO COM NÚMERO DE DADOS E PUBLICAÇÕES  */
@@ -100,5 +101,71 @@
 }
 
 @media screen and (max-width: 670px) {
+
+    /* DOWN ROW */
+    .container > img {
+        top: 56rem;
+    }
+
+    /* ÁREA DE INTRODUÇÃO */
+    .areaIntroducao__tituloDescricao h1 {
+        font-size: 4em;
+    }
     
+    .areaIntroducao__tituloDescricao p {
+        font-size: 1.3em;
+    }
+
+    /* DESCRIÇÃO TÍTULO E IMAGEM  */
+
+
+    /* SEÇÃO APP FOOD */
+    .secaoAppFood h2 {
+        font-size: 2em;
+    }
+
+    .tituloImagem__divisao img {
+        width: 27rem;
+    }
+
+    /* SEÇÃO DE ATIVIDADE DO APP  */
+    .secaoAtividade, .secaoDadosPublicacoes {
+        margin-bottom: 1rem;
+    }
+
+    /* ÁREA DE PEGAR ATUALIZAÇÕES NOVAS  */
+    .rodape__pegarAtualizacoes h2 {
+        text-align: center;
+    }
+
+    /* SEÇÃO PRONTO PARA COMEÇAR  */
+    .secaoProntoComecar__links {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .secaoProntoComecar__links a {
+        width: 100%;
+    }
+
+    /* RODAPÉ */
+    .rodape {
+        gap: 4rem;
+    }
+
+    .pegarAtualizacoes__inputBox input {
+        max-width: 15rem;
+        width: 100%;
+    }
+
+    .rodape__creditos {
+        width: 100%;
+        padding-inline: 2rem;
+    }
+
+    .creditos__listaCreditos {
+        flex-direction: column;
+    }
 }
