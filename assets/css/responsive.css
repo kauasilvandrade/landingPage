@@ -104,7 +104,7 @@
 
     /* DOWN ROW */
     .container > img {
-        top: 56rem;
+        top: 59rem;
     }
 
     /* ÁREA DE INTRODUÇÃO */
@@ -115,9 +115,6 @@
     .areaIntroducao__tituloDescricao p {
         font-size: 1.3em;
     }
-
-    /* DESCRIÇÃO TÍTULO E IMAGEM  */
-
 
     /* SEÇÃO APP FOOD */
     .secaoAppFood h2 {
@@ -168,4 +165,62 @@
     .creditos__listaCreditos {
         flex-direction: column;
     }
+}
+
+@media screen and (max-width: 425px) {
+
+    /* ÁREA DE INTRODUÇÃO */
+    .areaIntroducao__tituloDescricao h1 {
+        font-size: 3em;
+    }
+    
+    .areaIntroducao__tituloDescricao p {
+        font-size: 1.1em;
+    }
+
+    /* DOWN ROW */
+    .container > img {
+        top: 54rem;
+    }
+
+    /* SEÇÃO APP FOOD */
+    .secaoAppFood {
+        padding-inline: 2rem;
+    }
+
+    .descricao p {
+        color: var(--cinza-escuro);
+        font-size: 1em;
+        line-height: 1.8em;
+    }
+
+    .spanCinza {
+        font-size: 0.7em;
+    }
+
+    .secaoAppFood h2 {
+        font-size: 1em;
+    }
+
+    /* DESCRIÇÃO TÍTULO E IMAGEM  */
+    .descricao h2 {
+        font-size: 2em;
+    }
+
+    .listaAtividades__item p {
+        color: var(--cinza);
+        font-size: 0.9em;
+    }
+
+    /* LISTA DE DADOS */
+    .listaDados__item span {
+        font-size: 2.9rem;
+        line-height: 3.5rem;
+    }
+
+    /* SEÇÃO PRONTO PARA COMEÇAR */
+    .secaoProntoComecar h2 , .rodape__pegarAtualizacoes h2 {
+        font-size: 1.3em;
+    }
+
 }
