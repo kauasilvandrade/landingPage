@@ -74,7 +74,7 @@ body {
 
 .listaMenu__item .underline {
     background-color: var(--branco);
-    height: 5px;
+    height: 3px;
     width: 100%;
     overflow: hidden;
     visibility: hidden;
@@ -83,9 +83,8 @@ body {
 /* ÁREA DE INTRODUÇÃO */
 .secaoTopo__areaIntroducao {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    position: relative;
+    align-items: center;
 }
 
 .areaIntroducao__tituloDescricao {
@@ -106,15 +105,15 @@ body {
 }
 
 .areaIntroducao__tituloDescricao a {
-    color: var(--branco);
-    text-decoration: none;
     background: var(--rosa);
+    color: var(--branco);
+    font-size: 1.1em;
+    font-weight: 600;
+    text-decoration: none;
     width: 10rem;
     height: 3.8rem;
-    font-size: 1.1em;
     padding: 1.2rem 1.9rem;
     border-radius: 5px;
-    font-weight: 600;
     transition: .7s;
 }
 
@@ -125,8 +124,10 @@ body {
 
 .secaoTopo__areaIntroducao img {}
 
+/* DOWN ARROW */
 .container > img {
     display: block;
+    margin: auto;
 }
 
 /* CONTÉUDO */
@@ -154,7 +155,6 @@ body {
     font-size: 2.6em;
     max-width: 42rem;
     text-align: center;
-    margin-bottom: 1rem;
 }
 
 .secaoAppFood img {
@@ -255,7 +255,7 @@ body {
 }
 
 .listaDados__item p {
-    font: 1.3em;
+    font-size: 1.3em;
 }
 
 /* SEÇÃO APRESENTAÇÃO DE PRATOS */
@@ -285,53 +285,48 @@ body {
 
 .secaoMarcasPatrocinadores img {
     display: block;
+    width: 100%;
 }
 
 .secaoMarcasPatrocinadores #img1 {
     max-width: 95rem;
-    width: 100%;
     margin: auto auto 4rem auto;
     padding-inline: 2rem;
 }
 
 .secaoMarcasPatrocinadores #img2 {
-    width: 100%;
     max-width: 1860px;
     margin: auto;
 }
 
 /* SEÇÃO PRONTO PARA COMEÇAR */
 .secaoProntoComecar {
-    height: 35rem;
     background-image: linear-gradient(135deg, #fc0a7e, #602bb6);
 }   
 .secaoProntoComecar .fundo {
-    z-index: 10;
     height: 35rem;
     width: 100%;
     background-image: url("https://uploads-ssl.webflow.com/5af49de0dbb1e3637f2d8886/5b11c1af7f519f50eaefd140_wavy-bg.svg");
     background-position: 50% 50%, 0px 0px;
     background-size: cover, auto;
-    position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     gap: 3rem;
+    color: var(--branco);
     font-size: 1.5em;
 }   
 
-.secaoProntoComecar h2 {
-    color: var(--branco);
-}
+.secaoProntoComecar h2 {}
 
 .secaoProntoComecar__links {}
 
 .secaoProntoComecar__links a {
-    text-decoration: none;
     color: var(--branco);
     width: 10rem;
     height: 3.8rem;
+    text-decoration: none;
     padding: 1.2rem 1.9rem;
     border-radius: 2px;
     font-weight: 600;
@@ -370,8 +365,8 @@ body {
 .rodape__pegarAtualizacoes {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
     align-items: center;
+    gap: 2rem;
 }
 
 .rodape__pegarAtualizacoes h2 {
@@ -393,25 +388,25 @@ body {
     width: 19rem;
     font-size: 1em;
     border-radius: 5px 0px 0px 5px;
-    border: none;
     border: 2px solid transparent;
     transition: .5s;
     outline: none;
 }
 
-.pegarAtualizacoes__inputBox input:hover {
+.pegarAtualizacoes__inputBox input:hover, 
+.pegarAtualizacoes__inputBox input:focus {
     border: 2px solid var(--rosa);
-}
+} 
 
 .pegarAtualizacoes__inputBox button {
     width: 9rem;
-    transition: .5s;
     cursor: pointer;
+    font-size: 1.1em;
     background-color: var(--rosa);
     color: var(--branco);
     border: none;
     border-radius: 0px 5px 5px 0px;
-    font-size: 1.1em;
+    transition: .5s;
 }
 
 .pegarAtualizacoes__inputBox button:hover {

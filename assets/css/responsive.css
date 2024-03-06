@@ -20,7 +20,7 @@
 
     /* LISTA DE ATIVIDADES */
     .secaoAtividade__listaAtividades {
-        gap: 1.5rem;
+        gap: 2.5rem;
     }
 
     /* SEÇÃO APRESENTAÇÃO DE PRATOS  */
@@ -55,6 +55,12 @@
         flex-direction: column;
     }
 
+    /* SEÇÃO APRESENTAÇÃO DE PRATOS */
+    .descricao {
+        max-width: 100%;
+        text-align: center;
+    }
+
     .descricao h2 {
         max-width: 100%;
     }
@@ -65,11 +71,6 @@
 
     .order {
         order: 1;
-    }
-
-    .descricao {
-        max-width: 100%;
-        text-align: center;
     }
 
     /* SEÇÃO COM NÚMERO DE DADOS E PUBLICAÇÕES  */
@@ -86,6 +87,7 @@
         width: 100%;
         max-width: 30rem;
         padding-inline: 0rem;
+        margin: auto;
     }
     
 }
@@ -107,7 +109,7 @@
     }
 
     .tituloImagem__divisao img {
-        width: 27rem;
+        min-width: 27rem;
     }
 
     /* SEÇÃO DE ATIVIDADE DO APP  */
@@ -137,11 +139,13 @@
         gap: 4rem;
     }
 
+    /* ÁREA DE PEGAR ATUALIZAÇÕES NOVAS */
     .pegarAtualizacoes__inputBox input {
         max-width: 15rem;
         width: 100%;
     }
 
+    /* CRÉDITOS */
     .rodape__creditos {
         width: 100%;
         padding-inline: 2rem;
@@ -168,43 +172,54 @@
         padding-inline: 2rem;
     }
 
-    .descricao p {
-        color: var(--cinza-escuro);
-        font-size: 1em;
-        line-height: 1.8em;
-    }
-
     .spanCinza {
         font-size: 0.7em;
     }
 
     .secaoAppFood h2 {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
-    /* DESCRIÇÃO TÍTULO E IMAGEM  */
+    /* SEÇÃO DESCRIÇÃO DO APP */
     .descricao h2 {
         font-size: 2em;
     }
 
+    .descricao p {
+        color: var(--cinza-escuro);
+        font-size: 1em;
+        line-height: 1.8em;
+    }
+    
+    /* SEÇÃO DESCRIÇÃO DO APP  */
+    .tituloImagem__divisao img {
+        min-width: 23rem;
+    }
+
+    /* SEÇÃO DE ATIVIDADE DO APP */
     .listaAtividades__item p {
-        color: var(--cinza);
         font-size: 0.9em;
     }
 
-    .tituloImagem__divisao img {
-        width: 24rem;
-    }
-
-    /* LISTA DE DADOS */
+    /* SEÇÃO COM NÚMERO DE DADOS E PUBLICAÇÕES */
     .listaDados__item span {
         font-size: 2.9rem;
         line-height: 3.5rem;
     }
 
+    .listaDados__item p {
+        font-size: 1em;
+    }
+
     /* SEÇÃO PRONTO PARA COMEÇAR */
     .secaoProntoComecar h2 , .rodape__pegarAtualizacoes h2 {
         font-size: 1.3em;
+    }
+
+    /* ÁREA DE PEGAR ATUALIZAÇÕES NOVAS */
+    .pegarAtualizacoes__inputBox input {
+        max-width: 11rem;
+        padding: 1.2rem;
     }
 
 }
