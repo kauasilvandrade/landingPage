@@ -13,11 +13,6 @@
         max-width: 28rem;
     }
 
-    /* DOWN ARROW  */
-    .container > img {
-        top: 35rem;
-    }
-
     /* SEÇÃO DESCRIÇÃO DO APP */
     .secaoDescricaoApp, .secaoApresentacaoPratos {
         padding: 3rem;
@@ -40,11 +35,6 @@
     /* ÁREA DE INTRODUÇÃO */
     .secaoTopo__areaIntroducao {
         flex-direction: column;
-    }
-
-    /* DOWN ARROW  */
-    .container > img {
-        top: 62rem;
     }
 
 }
@@ -101,11 +91,6 @@
 }
 
 @media screen and (max-width: 670px) {
-
-    /* DOWN ROW */
-    .container > img {
-        top: 58rem;
-    }
 
     /* ÁREA DE INTRODUÇÃO */
     .areaIntroducao__tituloDescricao h1 {
@@ -176,11 +161,6 @@
     
     .areaIntroducao__tituloDescricao p {
         font-size: 1.1em;
-    }
-
-    /* DOWN ROW */
-    .container > img {
-        top: 51rem;
     }
 
     /* SEÇÃO APP FOOD */

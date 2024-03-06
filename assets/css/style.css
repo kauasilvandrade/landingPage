@@ -33,7 +33,6 @@ body {
 .container {
     max-width: 1500px;
     margin: auto;
-    position: relative;
 }
 
 /* CABEÇALHO */
@@ -128,9 +127,6 @@ body {
 
 .container > img {
     display: block;
-    position: absolute;
-    top: 54rem;
-    right: 50%;
 }
 
 /* CONTÉUDO */
