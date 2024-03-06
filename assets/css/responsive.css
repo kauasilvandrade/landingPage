@@ -104,7 +104,7 @@
 
     /* DOWN ROW */
     .container > img {
-        top: 59rem;
+        top: 58rem;
     }
 
     /* ÁREA DE INTRODUÇÃO */
@@ -180,7 +180,7 @@
 
     /* DOWN ROW */
     .container > img {
-        top: 54rem;
+        top: 51rem;
     }
 
     /* SEÇÃO APP FOOD */
@@ -210,6 +210,10 @@
     .listaAtividades__item p {
         color: var(--cinza);
         font-size: 0.9em;
+    }
+
+    .tituloImagem__divisao img {
+        width: 24rem;
     }
 
     /* LISTA DE DADOS */
