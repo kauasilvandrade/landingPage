@@ -50,6 +50,11 @@ body {
     width: 100%;
 }
 
+/* BTN MENU */
+#secaoTopo__btnMenu {
+    display: none;
+}
+
 /* MENU */
 .secaoTopoCabecalho__listaMenu {
     display: flex;
@@ -65,6 +70,7 @@ body {
     font-size: 1.2em;
     padding: 0.8rem 0;
     display: block;
+    font-weight: 600;
 }
 
 .listaMenu__item a:hover ~ .underline  {

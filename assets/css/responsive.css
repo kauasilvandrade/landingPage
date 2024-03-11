@@ -32,6 +32,11 @@
 
 @media screen and (max-width: 1020px) {
     
+    /* CABEÇALHO */
+    .secaoTopo {
+        padding: 1.3rem;
+    }
+
     /* ÁREA DE INTRODUÇÃO */
     .secaoTopo__areaIntroducao {
         flex-direction: column;
@@ -40,9 +45,67 @@
 }
 
 @media screen and (max-width: 936px) {
-    
+    /* CABEÇALHO SCROLL */
+    .secaoTopoCabecalho.scroll{
+        background-color: var(--rosa);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 1rem;
+        transition: .5s;
+    }
+
+    /* BTN MENU */
+    #secaoTopo__btnMenu {
+        display: block;
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 2em;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 1rem;
+    }
+
     /* MENU */
     .secaoTopoCabecalho__listaMenu {
+       display: block;
+       background: black;
+       position: absolute;
+       left: 0;
+       right: 0;
+       height: 0;
+       visibility: hidden;
+       overflow-y: hidden;
+       top: 4.3rem;
+       transition: .3s;
+    }
+    
+    /* MENU APARECERÁ AO SEU ATIVADO .ativado */
+    #secaoTopo__btnMenu.ativado {
+        background-color: black;
+    }
+    
+    .secaoTopoCabecalho__listaMenu.ativado { 
+        visibility: visible;
+        height: calc(21.9rem - 4.3rem);
+    }
+    
+    .listaMenu__item a {
+        padding: 1.4rem;
+        border-bottom: 2px solid white;
+        transition: .5s;
+    }
+
+    .listaMenu__item a:hover {
+        background: white;
+        color: black;
+    }
+
+    .listaMenu__item .underline {
         display: none;
     }
 
