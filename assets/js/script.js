@@ -5,9 +5,11 @@ function menuShow(event) {
     // MENU
     let listaMenu = document.querySelector('.secaoTopoCabecalho__listaMenu');
     listaMenu.classList.toggle('ativado');
+    window.addEventListener('scroll', () => listaMenu.classList.remove('ativado'))
     
     // BOTÃO MENU
     btnMenu.classList.toggle('ativado');
+    window.addEventListener('scroll', () => btnMenu.classList.remove('ativado'))
     
     // ACESSIBILIDADE
     if (event.type == 'touchstart') event.preventDefault();    
@@ -28,4 +30,4 @@ btnMenu.addEventListener('touchstart', menuShow)
 
 // MOSTRAR NOVO CABEÇALHO AO SER SCROLADO
 let cabecalho = document.querySelector('.secaoTopoCabecalho');
-window.addEventListener('scroll', () => cabecalho.classList.toggle('scroll', window.scrollY > 50));
+window.addEventListener('scroll', () => cabecalho.classList.toggle('scroll', window.scrollY > 50))

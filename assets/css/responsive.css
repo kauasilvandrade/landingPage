@@ -74,7 +74,7 @@
         background-color: transparent;
         border: none;
         color: white;
-        font-size: 2em;
+        font-size: 2.6em;
         cursor: pointer;
         position: absolute;
         top: 0;
@@ -92,7 +92,7 @@
        height: 0;
        visibility: hidden;
        overflow-y: hidden;
-       top: 4.3rem;
+       top: 5rem;
        transition: .3s;
     }
     
