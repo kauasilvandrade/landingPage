@@ -42,18 +42,30 @@
         flex-direction: column;
     }
 
+    .areaIntroducao__tituloDescricao {
+        padding-bottom: 6rem;
+    }
+
 }
 
 @media screen and (max-width: 936px) {
+
+    .secaoTopo {
+        padding-top: 10rem;
+    }
+
     /* CABEÇALHO SCROLL */
-    .secaoTopoCabecalho.scroll{
-        background-color: var(--rosa);
+    .secaoTopoCabecalho {
+        background-color: transparent;
         position: fixed;
         top: 0;
         left: 0;
-        right: 0;
+        width: 100%;
         padding: 1rem;
-        /* transition: .5s; */
+    }
+    
+    .secaoTopoCabecalho.scroll {
+        background-color: var(--rosa);
     }
 
     /* BTN MENU */
