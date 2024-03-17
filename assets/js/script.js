@@ -30,4 +30,46 @@ btnMenu.addEventListener('touchstart', menuShow)
 
 // MOSTRAR NOVO CABEÇALHO AO SER SCROLADO
 let cabecalho = document.querySelector('.secaoTopoCabecalho');
-window.addEventListener('scroll', () => cabecalho.classList.toggle('scroll', window.scrollY > 50))
+window.addEventListener('scroll', () => cabecalho.classList.toggle('scroll', window.scrollY > 50));
+
+// ANIMAÇÃO SCROLL
+const debounce = function(func, wait, immediate) {
+    let timeout;
+    return function(...args) {
+        const context = this;
+        const later = function() {
+            timeout = null;
+            if (!immediate) func.apply(context, args);
+        };
+        const callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args)
+    };
+};
+
+
+
+const target = document.querySelectorAll('[data-anime');
+const animationClass = 'animate';
+
+function animeScoll() {
+
+    const windowTop = window.scrollY + (window.innerHeight * 3 / 4);
+    
+    target.forEach(function(elemento) {
+
+        if ((windowTop) > elemento.offsetTop) {
+            elemento.classList.add(animationClass);
+        } else {
+            elemento.classList.remove(animationClass);
+        }
+
+    })
+}
+
+animeScoll();
+
+if (target.length) {
+    window.addEventListener('scroll', debounce(animeScoll, 200));
+}
